@@ -471,8 +471,8 @@
     }
   }
   
-  /* Services Section */
-  .services {
+  /* projects Section */
+  .projects {
     background: #040b1a;
     display: flex;
     flex-direction: column;
@@ -482,7 +482,7 @@
     padding: 10rem 0;
   }
   
-  .services h1 {
+  .projects h1 {
     background-color: #ff8177;
     background-image: linear-gradient(to right, #ff0844 0%, #f7673c 100%);
     background-size: 100%;
@@ -494,13 +494,13 @@
     font-size: 2.5rem;
   }
   
-  .services__wrapper {
+  .projects__wrapper {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr;
   }
   
-  .services__card {
+  .projects__card {
     margin: 10px;
     height: 425px;
     width: 300px;
@@ -513,7 +513,7 @@
     transition: 0.3s ease-in;
   }
   
-  .services__card:nth-child(2) {
+  .projects__card:nth-child(2) {
     background: #1fa2ff; /* fallback for old browsers */
     background: -webkit-linear-gradient(
       to right,
@@ -529,7 +529,7 @@
     ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   }
   
-  .services__card:nth-child(3) {
+  .projects__card:nth-child(3) {
     background-image: linear-gradient(
       -225deg,
       #1c267c 0%,
@@ -539,23 +539,23 @@
     );
   }
   
-  .services__card h2 {
+  .projects__card h2 {
     text-align: center;
   }
   
-  .services__card p {
+  .projects__card p {
     text-align: center;
     margin-top: 24px;
     font-size: 20px;
   }
   
-  .services__btn {
+  .projects__btn {
     display: flex;
     justify-content: center;
     margin-top: 16px;
   }
   
-  .services__card button {
+  .projects__card button {
     color: #fff;
     padding: 14px 24px;
     border: none;
@@ -565,31 +565,31 @@
     font-size: 1rem;
   }
 
-  .services__btn a, a:link {
+  .projects__btn a, a:link {
     position: relative;
     z-index: 2;
     color: #fff;
     text-decoration: none;
   }
 
-  .services__card button:hover {
+  .projects__card button:hover {
     cursor: pointer;
   }
   
-  .services__card:hover {
+  .projects__card:hover {
     transform: scale(1.075);
     transition: 0.3s ease-in;
     cursor: pointer;
   }
   
   @media screen and (max-width: 1300px) {
-    .services__wrapper {
+    .projects__wrapper {
       grid-template-columns: 1fr 1fr;
     }
   }
   
   @media screen and (max-width: 768px) {
-    .services__wrapper {
+    .projects__wrapper {
       grid-template-columns: 1fr;
     }
   }
